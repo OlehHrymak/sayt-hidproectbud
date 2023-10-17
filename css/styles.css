@@ -279,7 +279,7 @@ font-style: normal;
   max-width: 428px;
   margin: 0 auto;
   background-color: var(--navy-blue-modal-cl); 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-mobile.jpg);
+  background-image: url(../images/logo-min.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -288,7 +288,7 @@ font-style: normal;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-mobile-2x.jpg); 
+    background-image: url(../images/logo-min.png); 
   }
 }
 
